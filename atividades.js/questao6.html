@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 6</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite o nome do paciente:");
+        let peso = Number(prompt("Digite o peso (kg):"));
+        let altura = Number(prompt("Digite a altura (m):"));
+
+        let imc = peso / (altura * altura);
+
+        let faixa;
+
+        if (imc < 20) {
+            faixa = "Abaixo do peso";
+        } else if (imc < 25) {
+            faixa = "Normal";
+        } else if (imc < 30) {
+            faixa = "Excesso de peso";
+        } else if (imc < 35) {
+            faixa = "Obesidade";
+        } else {
+            faixa = "Obesidade mórbida";
+        }
+
+        alert(
+            "Paciente: " + nome +
+            "\nIMC: " + imc.toFixed(2) +
+            "\nFaixa de risco: " + faixa
+        );
+    </script>
+</body>
+</html>

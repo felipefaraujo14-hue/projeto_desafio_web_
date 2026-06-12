@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 4</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite o nome:");
+        let nota1 = Number(prompt("Primeira nota:"));
+        let nota2 = Number(prompt("Segunda nota:"));
+        let nota3 = Number(prompt("Terceira nota:"));
+
+        let media = (nota1 + nota2 + nota3) / 3;
+
+        if (media >= 6) {
+            alert(nome + ", sua média é: " + media.toFixed(1) + ", você foi aprovado");
+        } else {
+            alert(nome + ", sua média é: " + media.toFixed(1) + ", você foi reprovado");
+        }
+    </script>
+</body>
+</html>
