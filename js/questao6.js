@@ -3,7 +3,7 @@ function calcularIMC() {
     let peso = Number(document.getElementById("peso").value);
     let altura = Number(document.getElementById("altura").value);
 
-    let imc = peso / (altura * altura);
+    let imc = peso / (altura * altura) * 10000;
 
     let faixa;
 
