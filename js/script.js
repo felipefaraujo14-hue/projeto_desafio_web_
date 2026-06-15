@@ -200,3 +200,10 @@ alert(
     "\nFaixa de risco: " + faixa
 );
 */
+let numero = Number(document.getElementById("Digite um número:"));
+
+if (numero % 3 === 0 && numero % 7 === 0) {
+    document.getElementById("O número é divisível por 3 e por 7.");
+} else {
+    document.getElementById("O número não é divisível por 3 e por 7.");
+}
