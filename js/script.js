@@ -171,7 +171,7 @@ if (lado1 === lado2 && lado2 === lado3) {
 } else {
     alert("triângulo é escaleno");
 }
-*/
+
 //questao 6
 
 let nome = prompt("Digite o nome do paciente:");
@@ -199,3 +199,4 @@ alert(
     "\nIMC: " + imc.toFixed(2) + 
     "\nFaixa de risco: " + faixa
 );
+*/
