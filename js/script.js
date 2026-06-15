@@ -143,6 +143,7 @@ alert(
     "Quantidade de combustível necessária: " + combustivel.toFixed(2) + " litros\n" +
     "Valor total do combustível: R$ " + valorTotal.toFixed(2)
 )
+questao4
 
 let nome = prompt("Digite o nome:")
 let nota1 = Number(prompt("Primeira nota:"))
